@@ -11,7 +11,8 @@ pymongo==4.7.3            # MongoDB driver (sync, used for indexes)
 
 # Authentication & Security
 python-jose[cryptography]==3.3.0   # JWT tokens
-passlib[bcrypt]==1.7.4             # Password hashing
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1             # Password hashing
 python-multipart==0.0.9            # Form data
 
 # Validation & Config
