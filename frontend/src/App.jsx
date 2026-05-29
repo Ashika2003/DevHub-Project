@@ -56,7 +56,7 @@ export const useAuth = () => useContext(AuthContext);
 
 // ─── API Client ────────────────────────────────────────────────────────────
 
-const BASE_URL = 'http://localhost:8000/api/v1';
+const BASE_URL = 'https://devhub-api-u7hz.onrender.com/api/v1';
 
 const api = {
   async request(method, path, data = null) {
