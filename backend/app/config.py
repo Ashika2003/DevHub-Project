@@ -33,10 +33,10 @@ class Settings(BaseSettings):
     
     # CORS
     ALLOWED_ORIGINS: List[str] = [
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "https://devhub.yourdomain.com"
-    ]
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://devhub-frontend-2pri.onrender.com"
+	]
     
     # Rate limiting
     RATE_LIMIT_PER_MINUTE: int = 60
